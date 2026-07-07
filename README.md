@@ -1,34 +1,34 @@
 # 📊 Personal Finance Habits Analysis
 
-A comprehensive statistical analysis project that explores **personal finance habits**, including **spending patterns, saving behavior, investment decisions, and financial confidence** using survey data collected through Google Forms.
+A comprehensive statistical analysis project that explores **personal finance habits**, including **spending behavior, saving habits, investment decisions, impulse purchases, and financial confidence** using survey data collected through Google Forms.
 
 This project was developed as part of the **Elements of Statistics Lab (BCA Sem-III)** at **Somaiya School of Basic and Applied Sciences, Somaiya Vidyavihar University**.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-Financial literacy plays a crucial role in achieving long-term financial stability. This project aims to understand how individuals manage their finances by analyzing their:
+The project analyzes the financial habits of individuals by studying:
 
-- 💰 Spending Habits
-- 💵 Saving Behavior
-- 📈 Investment Practices
-- 🛍️ Impulse Purchase Behavior
-- 💹 Investment Decision Factors
+- 💰 Spending Patterns
+- 💵 Saving Habits
+- 📈 Investment Behavior
+- 🛍️ Impulse Purchases
+- 🎯 Saving Motivation
 - 📊 Financial Confidence
 
-The analysis is performed using **R Programming** with statistical methods and data visualization techniques.
+Statistical techniques and data visualization are used to discover trends and relationships among different demographic groups.
 
 ---
 
 # 🎯 Objectives
 
-- Analyze respondents' spending habits.
-- Study saving patterns across different income groups.
-- Examine investment behavior.
-- Measure financial confidence using a Likert scale.
-- Identify relationships between income, saving, and investment.
-- Present meaningful insights using statistical analysis and visualizations.
+- Analyze spending habits.
+- Study saving behavior.
+- Understand investment decisions.
+- Measure financial confidence.
+- Examine the relationship between income and savings.
+- Visualize financial behavior using statistical charts.
 
 ---
 
@@ -36,12 +36,12 @@ The analysis is performed using **R Programming** with statistical methods and d
 
 | Attribute | Details |
 |-----------|---------|
-| Data Source | Google Forms |
-| Responses | 50 |
+| Source | Google Forms |
+| Total Responses | 50 |
 | Region | Kalyan, Maharashtra |
 | Sampling Method | Convenience Sampling |
 
-The dataset includes:
+The dataset contains:
 
 - Timestamp
 - Name
@@ -51,19 +51,19 @@ The dataset includes:
 - Monthly Income
 - Expense Tracking Method
 - Monthly Spending
-- Impulse Purchase Frequency
+- Impulse Purchases
 - Saving Habit
 - Motivation to Save
 - Average Savings
 - Investment Status
 - Investment Type
-- Investment Decision Influence
+- Investment Influence
 - Financial Confidence
 - Suggestions
 
 ---
 
-# 🛠️ Technologies Used
+# 🛠 Technologies Used
 
 - R Programming
 - readxl
@@ -76,9 +76,23 @@ The dataset includes:
 
 ---
 
-# 📊 Statistical Techniques
+# 📊 Statistical Analysis
 
-### Descriptive Statistics
+## Frequency Analysis
+
+- Age Distribution
+- Gender Distribution
+- Occupation Distribution
+- Monthly Income Distribution
+- Expense Tracking
+- Monthly Spending
+- Impulse Purchases
+- Saving Habits
+- Investment Habits
+
+---
+
+## Descriptive Statistics
 
 - Mean
 - Median
@@ -89,19 +103,9 @@ The dataset includes:
 - Quartiles
 - Interquartile Range (IQR)
 
-### Frequency Analysis
+---
 
-- Age Distribution
-- Gender Distribution
-- Occupation Distribution
-- Monthly Income Distribution
-- Expense Tracking Methods
-- Monthly Spending
-- Saving Habits
-- Investment Habits
-- Impulse Purchases
-
-### Cross Tabulation
+## Cross Tabulation
 
 - Income vs Saving Habit
 - Saving Habit vs Investment
@@ -113,7 +117,7 @@ The dataset includes:
 
 # 📈 Visualizations
 
-The project generates the following charts automatically:
+The project automatically generates:
 
 - Age Distribution
 - Gender Distribution
@@ -122,7 +126,7 @@ The project generates the following charts automatically:
 - Expense Tracking Bar Chart
 - Expense Tracking Pie Chart
 - Monthly Spending Distribution
-- Impulse Purchase Analysis
+- Impulse Purchase Distribution
 - Saving Habits
 - Investment Status
 - Income vs Saving
@@ -132,23 +136,25 @@ The project generates the following charts automatically:
 - Motivation to Save
 - Investment Decision Influence
 
+All charts are saved in the **images/** folder.
+
 ---
 
 # 📁 Project Structure
 
 ```
-Study on Personal Finance Habits
+Study on Personal Finance Habits/
 │
-├── code
+├── code/
 │   ├── module1.R
 │   ├── module2.R
 │   ├── module3.R
 │   └── module4.R
 │
-├── data
+├── data/
 │   └── dataset.xlsx
 │
-├── images
+├── images/
 │   ├── age_distribution.png
 │   ├── gender_distribution.png
 │   ├── occupation_distribution.png
@@ -166,30 +172,52 @@ Study on Personal Finance Habits
 │   ├── motivation_to_save.png
 │   └── investment_influence.png
 │
-├── reports
-│   ├── MiniProject.docx
-│   └── Presentation.pptx
+├── results/
+│   ├── age_table.csv
+│   ├── gender_table.csv
+│   ├── occupation_table.csv
+│   ├── income_table.csv
+│   ├── expense_tracking_table.csv
+│   ├── monthly_spending_table.csv
+│   ├── impulse_purchase_table.csv
+│   ├── saving_table.csv
+│   ├── investment_table.csv
+│   ├── descriptive_statistics.csv
+│   ├── mode_results.csv
+│   ├── income_vs_saving.csv
+│   ├── saving_vs_investment.csv
+│   ├── occupation_vs_saving.csv
+│   ├── age_vs_investment.csv
+│   ├── gender_vs_saving.csv
+│   ├── motivation_summary.csv
+│   ├── investment_influence.csv
+│   ├── project_summary.csv
+│   ├── key_findings.csv
+│   ├── recommendations.csv
+│   └── session_info.txt
 │
-└── README.md
+├── reports/
+│   ├── MiniProject.docx
+│   ├── Presentation.pptx
+│   └── MiniProject.pdf
+│
+├── README.md
+└── .gitignore
 ```
 
 ---
 
 # 🚀 How to Run
 
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/personal-finance-habits-analysis.git
 ```
 
-### 2. Open the Project
-
-Open the project in **RStudio**.
-
 ---
 
-### 3. Install Required Packages
+### Install Packages
 
 ```r
 install.packages(c(
@@ -203,19 +231,18 @@ install.packages(c(
 
 ---
 
-### 4. Place the Dataset
+### Project Setup
 
-Copy the Excel dataset into:
+Place the dataset inside the **data/** folder.
 
 ```
-data/dataset.xlsx
+data/
+└── dataset.xlsx
 ```
 
 ---
 
-### 5. Run the Analysis
-
-Run the modules in the following order:
+### Run the Project
 
 ```r
 source("code/module1.R")
@@ -226,10 +253,40 @@ source("code/module4.R")
 
 ---
 
-# 📊 Key Findings
+# 📦 Generated Outputs
+
+### 📊 Images
+
+All visualizations are automatically saved in:
+
+```
+images/
+```
+
+### 📑 Results
+
+All statistical summaries and analysis tables are automatically exported to:
+
+```
+results/
+```
+
+These include:
+
+- Frequency Tables
+- Descriptive Statistics
+- Cross-Tabulations
+- Key Findings
+- Project Summary
+- Recommendations
+- Session Information
+
+---
+
+# 🔍 Key Findings
 
 - Most respondents actively track their expenses.
-- Mobile applications are the preferred expense tracking method.
+- Mobile applications are the preferred expense-tracking method.
 - Saving habits improve with increasing income.
 - Many respondents save regularly but have not yet started investing.
 - Financial confidence is moderately positive.
@@ -237,36 +294,13 @@ source("code/module4.R")
 
 ---
 
-# 📦 Generated Outputs
-
-The project automatically creates:
-
-### Images
-
-All charts are saved in:
-
-```
-images/
-```
-
-### Results
-
-CSV summary tables are saved in:
-
-```
-results/
-```
-
----
-
 # 🔮 Future Improvements
 
-- Increase survey sample size.
+- Expand the survey to a larger population.
 - Include respondents from multiple cities.
-- Perform predictive analytics.
-- Develop an interactive Shiny dashboard.
+- Build an interactive dashboard using Shiny.
 - Create a Power BI dashboard.
-- Apply Machine Learning for behavioral prediction.
+- Apply Machine Learning techniques for financial behavior prediction.
 
 ---
 
@@ -276,14 +310,18 @@ results/
 
 BCA Sem-III
 
+Somaiya School of Basic and Applied Sciences
+
+Somaiya Vidyavihar University
+
 ---
 
 # 📄 License
 
-This project is created for **educational and academic purposes**.
+This project is intended for **educational and academic purposes**.
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful, please consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a **Star ⭐** on GitHub.
