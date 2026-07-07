@@ -2,8 +2,6 @@
 
 A comprehensive statistical analysis project that explores **personal finance habits**, including **spending behavior, saving habits, investment decisions, impulse purchases, and financial confidence** using survey data collected through Google Forms.
 
-This project was developed as part of the **Elements of Statistics Lab (BCA Sem-III)** at **Somaiya School of Basic and Applied Sciences, Somaiya Vidyavihar University**.
-
 ---
 
 # 📌 Project Overview
@@ -245,10 +243,7 @@ data/
 ### Run the Project
 
 ```r
-source("code/module1.R")
-source("code/module2.R")
-source("code/module3.R")
-source("code/module4.R")
+source("code/analysis.R")
 ```
 
 ---
@@ -307,12 +302,6 @@ These include:
 # 👨‍💻 Author
 
 **Murali Krishna M**
-
-BCA Sem-III
-
-Somaiya School of Basic and Applied Sciences
-
-Somaiya Vidyavihar University
 
 ---
 
