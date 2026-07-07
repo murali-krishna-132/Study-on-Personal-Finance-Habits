@@ -210,7 +210,7 @@ Study on Personal Finance Habits/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/personal-finance-habits-analysis.git
+git clone https://github.com/murali-krishna-132/Study-on-Personal-Finance-Habits.git
 ```
 
 ---
